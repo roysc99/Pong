@@ -6,6 +6,6 @@ This project uses C++ and utilizes the Butano library to implement the game, Pon
 
 ## Technologies Used
 - **C++**
-- **Butano Library**
+- **Butano enginge**
 - **Devkit Arm**
 - **mGBA emulator**
