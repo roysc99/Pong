@@ -40,16 +40,16 @@ int main()
     //vector to store sprite characters
     bn::vector<bn::sprite_ptr, 32> text_sprites;
     //printing default text
-    text_generator.generate(-6 * 16, -68, "(Press any key to start)", text_sprites);
+    text_generator.generate(-60, -68, "(Press any key to start)", text_sprites);
 
     while(true)
     {
-        if (bn::keypad::left_held() && paddle.x() > -104)
+        if (bn::keypad::left_held() && paddle.x() > -112)
         {
             paddle.set_x(paddle.x() - 1);
         }
 
-        else if (bn::keypad::right_held() && paddle.x() < 104)
+        else if (bn::keypad::right_held() && paddle.x() < 112)
         {
             paddle.set_x(paddle.x() + 1);
         }
